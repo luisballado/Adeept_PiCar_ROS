@@ -3,7 +3,7 @@ ROS based control for Adeept Pi Car with line following proof of concept
 
 # Dependencies:
 
-  ROS (Melodic in this case)
+    ROS (Melodic in this case)
   
   Car:
   
@@ -17,17 +17,17 @@ ROS based control for Adeept Pi Car with line following proof of concept
 
   Car:
   
-  roscore
+    roscore
   
-  ROS.py
+    ROS.py
   
-  GST_Vid.sh
+    GST_Vid.sh
   
   Laptop:
   
-  ROS_ini.py
+    ROS_ini.py
   
-  Either (Picar_vid.py or Picar_auto.py)
+    Either (Picar_vid.py or Picar_auto.py)
   
 # Have fun!
   
