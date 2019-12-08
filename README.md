@@ -6,14 +6,22 @@ Make sure to append and source the .bashrc variables before you begin!
 # Dependencies:
 
     ROS (Melodic in this case)
+    
+    https://www.ros.org/
+    
+    http://wiki.ros.org/melodic/Installation
   
   Car:
   
     Gstreamer
     
+    sudo apt-get install gstreamer1.0
+    
   Laptop:
   
     OpenCV (Compiled with Gstreamer support)
+    
+    https://medium.com/@galaktyk01/how-to-build-opencv-with-gstreamer-b11668fa09c
 
 # Startup:
 
