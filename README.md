@@ -43,7 +43,11 @@ Make sure to append and source the .bashrc variables before you begin!
   
     ROS_ini.py
   
-    Either (Picar_vid.py or Picar_auto.py)
+    Either: 
+    
+      - Picar_vid.py 
+      
+      - Picar_auto.py
   
 # Have fun!
   
