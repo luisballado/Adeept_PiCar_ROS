@@ -1,6 +1,8 @@
 # Adeept_PiCar_ROS
 ROS based control for Adeept Pi Car with line following proof of concept
 
+
+
 Make sure to append and source the .bashrc variables before you begin!
 
 # Dependencies:
