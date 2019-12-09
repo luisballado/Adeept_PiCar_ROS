@@ -1,7 +1,7 @@
 # Adeept_PiCar_ROS
 ROS based control for Adeept Pi Car with line following proof of concept
 
-
+![Flow Chart](https://raw.githubusercontent.com/jacksonsugar/Adeept_PiCar_ROS/master/Adeept_Picar_ROS_flowchart.png)
 
 Make sure to append and source the .bashrc variables before you begin!
 
