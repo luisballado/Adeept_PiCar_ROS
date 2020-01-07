@@ -32,9 +32,11 @@ pwm.set_pwm(2,0,320)
 #def setup(): #Motor initialization
 global pwm_A, pwm_B
 
+# Set initial PWM states
 pwm_A = 0
 pwm_B = 0
 
+#Set up GPIO PWM outputs for the H-bridge
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 #GPIO.setup(Motor_A_EN, GPIO.OUT)
@@ -46,6 +48,7 @@ GPIO.setup(Motor_B_Pin2, GPIO.OUT)
 #pwm_A = GPIO.PWM(Motor_A_EN, 500)
 pwm_B = GPIO.PWM(Motor_B_EN, 500)
 
+# Collect joystick messages form ROS Master
 def Joy_callback(data):
 
     A = data.buttons[0]
@@ -98,6 +101,7 @@ def Joy_callback(data):
 
     pwm.set_pwm(2,0,ang)
 
+# Collect movment data from autonomous script on ROS Master
 def Twist_callback(data):
 
     ang = 0
