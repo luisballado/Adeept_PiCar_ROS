@@ -51,5 +51,3 @@ Make sure to append and source the .bashrc variables before you begin!
       
       - Picar_auto.py
   
-# Have fun!
-  
